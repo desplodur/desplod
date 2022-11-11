@@ -8,7 +8,7 @@ export default function Card({ title, description, tasks, picURL, techstack, ...
             <div className={styles.card__content}>
                 <h3 className={styles.card__title}>{title}</h3>
                 <p className={styles.card__description}>{description}</p>
-                {techstack.map((tech, index) => <span key={index} className={styles.card__span}>{tech + " "}</span>)}
+                {techstack.map((tech, index) => <span key={index} className={styles.card__span}>{tech}</span>)}
             </div>
     </div>;
     }
