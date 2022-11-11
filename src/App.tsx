@@ -1,5 +1,5 @@
-import './App.css';
-import Propjectlist from './components/Logic/Projectlist';
+import "./App.css";
+import Propjectlist from "./components/Logic/Projectlist";
 
 function App() {
   return (

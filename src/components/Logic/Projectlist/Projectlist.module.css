@@ -1,5 +1,4 @@
-
-.list{
-    display: flex;
-    flex-wrap: wrap;
+.list {
+  display: flex;
+  flex-wrap: wrap;
 }
